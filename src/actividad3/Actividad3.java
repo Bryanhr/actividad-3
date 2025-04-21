@@ -15,6 +15,9 @@ public class Actividad3 {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        Empleado emp1 = new Empleado();
+        emp1.calcularSalarioTotal(120.0, 25.15, "Supervisor");
+        emp1.mostrarInfo();
     }
     
 }
